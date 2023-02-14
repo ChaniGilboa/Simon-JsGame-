@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head muted="muted" ;>
+    <title>End</title>
+    <link rel="stylesheet" href="../styles/end.css">
+
+    <script>
+        function acheivements() {
+            var score = sessionStorage.getItem("score");
+            document.getElementsByTagName("h2")[0].innerHTML += '&nbsp' + score;
+            var complimant = "";
+            if (score > 200) {
+                complimant = "WOW!! You Are A Master!!";
+                image = document.createElement("img");
+                image.src = "../images/SnXn7g9.gif";
+                image.className = "abc";
+                ID.appendChild(image);
+            }
+            else if (score > 100) {
+                complimant = "Lovely! You Can Get More!!";
+                image = document.createElement("img");
+                image.src = "../images/92885de83b722f53c39fb763a72084a7.gif";
+                image.className = "abc";
+                ID.appendChild(image);
+            }
+            else {
+                complimant = "UNFORTUNATE! ";
+                image = document.createElement("img");
+                image.src = "../images/e27813e577548baadaa53ad737b6a5cd.gif";
+                image.className = "abc";
+                ID.appendChild(image);
+                document.getElementById("fail").play();
+            }
+            document.getElementById("text").innerHTML = "<b>" + complimant + "</b>";
+        }
+
+    </script>
+</head>
+
+<body id="body" onload="acheivements()">
+    <audio id="fail" loop autoplay="autoplay">
+        <source src="../images/fail-trombone-01.mp3" type="audio/mp3"></audio>
+    <h1>Game Over!!</h1>
+    <h2>Your Score Is:</h2>
+    <h3 id="text"></h3>
+    <div id="ID"></div>
+    <button id="playAgain" class="again" onclick="window.location = 'game.html'">
+        <b>Try Again</b>
+    </button>
+    <button id="playAgain" class="again" onclick="window.location = 'definition.html'">
+        <b>To Definition</b>
+    </button>
+
+</body>
+
+</html>

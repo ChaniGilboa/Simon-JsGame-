@@ -1,0 +1,56 @@
+  body{
+    text-align: center;
+    background-color: rgb(59, 149, 172);
+  }
+
+  .image{
+    height: 15%;
+    width: 15%;
+  }
+
+.userDetailsInputs{
+    height: 70px;
+    width: 350px;
+    border-radius:10px;
+    font-size: 30px;
+    font-style:italic;
+    text-align: center;
+    margin: 5%;
+    display: block;
+    font-family: Days;
+    color: rgb(3, 78, 97);
+}
+
+.Submit{
+  margin: auto;
+  height: 40px;
+  width: 120px;
+  border-radius:10px;
+  font-size: 15px;
+  font-style:italic;
+  font-family: Days;
+  color: rgb(3, 78, 97);
+}
+
+.divUserInputs{ 
+     position: relative;
+    margin: auto;
+    height:100%;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.optionButtons{
+    position: relative;
+    display:inline-block;
+    margin-left:30px;
+    margin-right: 30px;
+    width: 30%;
+    height:50px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(3, 78, 97);
+    font-family: Days;
+}
+

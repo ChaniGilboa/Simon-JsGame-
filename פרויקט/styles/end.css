@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-color:rgb(7, 177, 163);
+}
+
+h3,h2,h1{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-family:Buxton Sketch;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(206, 209, 28);
+    -webkit-text-stroke: 1px rgb(170, 172, 50);
+}
+
+h1{
+    font-size: 50px;
+    color: rgba(171, 173, 34, 0.685);
+    -webkit-text-stroke: 1px black;
+}
+
+h2{
+    font-size: 45px;
+    color: rgba(216, 219, 47, 0.685);
+    -webkit-text-stroke: 1px rgb(59, 56, 5);
+}
+
+.abc{
+    width: 25vw;
+    height: 25vw;
+}
+
+.again{
+    width: 10vw;
+    height: 8vh;
+    margin: 3vw;
+    background-color: rgb(214, 193, 6);
+    border-radius: 7px;
+    font-family:Buxton Sketch ;
+    font-size: 23px;
+    color: rgb(211, 105, 6);
+}

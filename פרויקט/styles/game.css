@@ -1,0 +1,62 @@
+
+body{
+    text-align: center;
+    background-image: url("../images/bc.jpg");
+    background-size:cover;
+}
+
+.divTempPic{
+margin-top: 50px;
+margin-bottom: 50px;
+margin: auto;
+width: 100vh;
+/* border: 1px solid black; */
+}
+ 
+.temporaryPictures{
+    margin-right: auto;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    margin: 0.8px;
+    border: solid black;
+}
+
+.wrap{
+    height: 55.8vh;
+    width: 55.8vh;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+ /* border: solid 2px black; */
+}
+
+.permanentPicture{
+    width: 18vh;
+    height: 18vh;
+    border: solid black;
+}
+
+.XV{
+    position: relative;
+height: 55vh;
+width: 28vw;
+}
+
+.score{
+border: groove 3px rgb(212, 66, 8);
+border-radius: 15px;
+height: 10vh;
+width: 130px;
+font-size: 30px;
+text-align: center;
+padding: 10px;
+margin-right: 25px;
+color: rgb(133, 41, 5);
+background-color: rgba(98, 175, 185, 0.863);
+}
+
+
+
+
+

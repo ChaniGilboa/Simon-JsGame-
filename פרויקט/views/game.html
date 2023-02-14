@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link rel="stylesheet" href="../styles/game.css">
+
+    <script src="../scripts/game.js" type="text/javascript"></script>
+
+</head>
+
+<body id="body" onload="load()">
+    <audio id="audx" loop>
+        <source src="../images/fail.mp3" type="audio/mp3" />
+    </audio>
+    <audio id="audv" loop>
+        <source src="../images/LASER2.mp3" type="audio/mp3" />
+    </audio>
+    <div style="float:right ;margin-top:25vh">
+        <h4 id="scoreDiv" class="score">
+            Score:
+            <br>
+            <b id="currentScore">0</b>
+        </h4>
+
+        <h4 id="timee" class="score">
+            Time:
+
+        </h4>
+    </div>
+    <div id="divImg" class="divTempPic">
+    </div>
+    <div id="wrap" class="wrap">
+
+        <img src="../images/4.jpg" class="permanentPicture" onclick="checkPlayerChoice()" style=" display: block; position:absolute; right: 18.3vh;"
+            data-numImg="1">
+
+        <img src="../images/9.jpg" class="permanentPicture" onclick="checkPlayerChoice()" style="margin-top:18.5vh; left: 0vh; position: absolute;"
+            data-numImg="2">
+        <img src="../images/8.jpg" class="permanentPicture" onclick="checkPlayerChoice()" style=" margin-top:18.5vh; right: 0vh; position: absolute;"
+            data-numImg="3">
+
+        <img src="../images/7.jpg" class="permanentPicture" onclick="checkPlayerChoice()" style=" right: 18.5vh; position: absolute; margin-top:37vh;"
+            data-numImg="4">
+
+    </div>
+</body>
+
+</html>

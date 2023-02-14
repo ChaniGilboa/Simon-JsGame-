@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Definition</title>
+
+    <link rel="stylesheet" href="../styles/definition.css">
+
+    <script src="../scripts/definition.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <h1>Instructions & Definitions</h1>
+    <div class="instruction">
+        <h2>Instructions</h2>
+        <label>In this game we show you a series of items.</label>
+        <br>
+        <br>
+        <label> After a few seconds they will disappear.</label>
+        <br>
+        <br>
+        <label>-Memorize its order. </label>
+        <br>
+        <br>
+        <label>-Repeat it by clicking the correct images.</label>
+        <br>
+        <br>
+        <label>
+            You can also use the arrow keys.
+        </label>
+        <br>
+        <label>Enjoy:)</label>
+
+    </div>
+    <br>
+    <H2>Choose Level</H2>
+    <button id="beginner" class="btnLevel" onclick="ChooseLvl()">Beginner</button>
+    <button id="advanced" class="btnLevel" onclick="ChooseLvl()">Advanced</button>
+    <button id="master" class="btnLevel" onclick="ChooseLvl()">Master</button>
+    <br>
+    <br>
+    <h2 class="a" onclick="choosePic()">Press To Choose Images</h2>
+    <div id="divPic"></div>
+
+    <button onclick="window.location = 'game.html'">Go To Game</button>
+</body>
+
+</html>
